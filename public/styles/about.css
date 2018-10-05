@@ -1,0 +1,157 @@
+.content {
+	width:90%;
+	margin:0 auto;
+}
+
+.content .form-description h2 {
+	text-align:left;
+	width:100%;
+	margin:30px 0 25px;
+}
+
+.content .form-description .bl {
+	height:5px;
+	width:28px;
+	background-color:#000;
+	float:left;
+	margin-bottom:15px;
+}
+
+.img-description {
+	clear:both;
+}
+
+.img-description h3 {
+	color:#585858;
+	font-size:15px;
+	line-height:19px;
+	margin-bottom:25px;
+	font-family:arial;
+}
+
+.about-me img {
+	width:100%;
+}
+
+.about-me .img-text {
+	font-family: 'Muli', sans-serif;
+	margin-top:40px;
+	font-size:14px;
+	line-height:18px;
+	color:#333;
+}
+
+.contact-form .form-info {
+	clear:both;
+}
+
+.contact-form .form-info p {
+	color:#585858;
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	margin-bottom:15px;
+
+}
+
+.contact-form .social {
+	display:none;
+}
+
+.contact-form form input,textarea {
+	margin-bottom:15px;
+}
+
+
+.contact-form form button {
+	float:right;
+	display:block;
+	margin-bottom:30px;
+	background-color:#000;
+}
+.clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+
+@media only screen and (min-width:1024px) {
+	.content {
+		width:100%;
+		margin-top:35px;
+	}
+
+	.about-me {
+		width:50%;
+		float:left;
+		position:relative;
+	}
+
+	.about-me .form-description {
+		margin-bottom:30px;
+		width:100%;
+	}
+
+	.about-me img {
+		width:167px;
+		float:left;
+		display:block
+	}
+
+	.about-me h3 {
+		position:relative;
+		top:20px;
+	}
+
+	.about-me .img-description {
+		width:167px;
+	}
+
+	.about-me .img-text {
+		float:right;
+		margin-top:0px;
+		width: calc(100% - 167px);
+		padding:0 20px;
+		position:absolute;
+		top:129px;
+		right:0;
+	}
+
+	.contact-form  {
+		width:50%;
+		float:right;
+		padding-left:15px;
+	}
+
+	.contact-form .form-description {
+		width:100%;
+		margin-bottom:30px;
+	}
+
+	.contact-form .social {
+		display:block !important;
+		position:static;
+	}
+
+	.contact-form .social ul {
+		width:auto;
+		text-align: left;
+	}
+
+	.contact-form .half {
+		width:50%;
+		float:left;
+	}
+
+	.contact-form .form {
+		width:50%;
+		float:right;
+	}
+
+	.footer {
+		margin-top:100px;
+	}
+
+}

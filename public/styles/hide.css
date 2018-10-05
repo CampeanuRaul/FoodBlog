@@ -1,0 +1,75 @@
+.header .logo {
+	display:none;
+}
+
+.blog-banner {
+	display:none;
+}
+
+.header .auth-btn {
+	top:8px;
+}
+
+.header .auth-btn img {
+	top:26px;
+	z-index:5000;
+}
+
+
+h1 {
+	font-family: 'Muli', sans-serif;
+	font-size:27px;
+	font-weight:bold;
+}
+
+/* Profile page styles */
+
+.prof {
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.prof img {
+	padding-top:5px;
+	width:150px;
+}
+
+.buttons .btn {
+	margin-top:10px;
+}
+
+.row {
+	margin:50px 0 70px;
+}
+
+
+
+
+@media only screen and (min-width:1024px) {
+
+nav {
+	width:100% !important;
+	top:30px !important;
+}
+
+nav ul {
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	display:block;
+	padding:15px !important;
+	border:2px solid #ddd !important;
+}
+
+.auth-btn {
+	z-index:1000;
+}
+
+.table {
+	margin-bottom:50px;
+}
+
+.prof img {
+	width:230px;
+}
+
+} 
